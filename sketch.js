@@ -49,7 +49,7 @@ function setup() {
    
   trex = createSprite(50,180,20,50);  
   trex.setCollider("rectangle",0,0,20,50)
-  trex.debug=true;
+  //trex.debug=true;
   
   
   trex.addAnimation("running", trex_running);
